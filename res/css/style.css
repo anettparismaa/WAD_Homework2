@@ -1,6 +1,8 @@
 nav {
     width: 100%;
     background-color: #c5c5c588;
+    margin-bottom: 5%;
+    border-radius: 150px;
 }
 nav ul{
     list-style-type: none;
@@ -17,5 +19,36 @@ nav ul li :hover{
 main{
     max-width: 50%;
     margin: auto;
-    background-color: aquamarine;
+    background-color: #c5c5c588;
+    border-radius: 25px;
+}
+
+
+@media (max-width: 1000px){
+    main {
+        max-width: 75%;
+    }
+    @media (max-width: 500px){
+        main {
+            max-width: 90%;
+        }
+    }
+}
+
+/** login page **/
+main div form {
+    text-align: center;
+
+}
+main #login{
+    text-align: center;
+}
+input[type=email], input[type=password]{
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    
+}
+main #login .blue{
+    color: rgba(33, 192, 192, 0.626);
 }
