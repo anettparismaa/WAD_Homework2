@@ -36,7 +36,7 @@ nav ul li :hover{
 main{
     max-width: 50%;
     margin: auto;
-    background-color: #c5c5c588;
+    background-color: #77767628;
     border-radius: 25px;
 }
 
@@ -74,3 +74,53 @@ main #login .blue{
 .addpost * {
     vertical-align: top;
 }
+
+.flex-container {
+    /* We first create a flex layout context */
+    display: flex;
+    /*flex-direction: column;
+    
+    /* Then we define the flow direction 
+       and if we allow the items to wrap 
+     * Remember this is the same as:
+     * flex-direction: row;
+     * flex-wrap: wrap;
+     */
+    /*flex-flow: row wrap;
+    
+    /* Then we define how is distributed the remaining space */
+    justify-content: center;
+    
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+
+.flex-item {
+    background: #77767628;
+    border-radius: 25px;
+    padding: 5px;
+    width: 400px;
+    height: 450px;
+    margin-top: 10px;
+    line-height: 150px;
+    color: white;
+    font-weight: bold;
+    font-size: 1em;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+ }
+
+ div.image::before {
+    content: url(../images/acc.png);
+    max-width: 100%;
+    max-height: 100%;
+    height: 80px;
+    width: 30px;
+    justify-content: right;
+    align-items: right;
+    max-width:10%;
+    max-height:10%;
+ }
