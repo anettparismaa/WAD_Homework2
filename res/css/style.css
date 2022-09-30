@@ -68,3 +68,9 @@ input[type=email], input[type=password]{
 main #login .blue{
     color: rgba(33, 192, 192, 0.626);
 }
+
+/** addpost page **/
+
+.addpost * {
+    vertical-align: top;
+}
