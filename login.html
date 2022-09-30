@@ -1,33 +1,35 @@
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="res/css/style.css">
-    </head>
-    <body>
-        <nav>
-            <ul>
-             <li><a href="index.html">Home</a></li>
-            </ul> 
-            <div id="profile">
-                <img src="res/images/acc.png">
-            </div>
-        </nav>
-         <br>
-         <main>
-                <div id="login">
-                    <b>Welcome to postIt</b>
-                    <p class="blue">Create an account</p>
-                    <p>or</p>
-                    <p>Please log in</p>
-                    <form>
-                        <input type="email" name="Email" placeholder="Email"><br>
-                        <input type="password" placeholder="Password"><br>
-                        <button type="button" class="login"><a href="index.html">Log in</a></button><br>
-            
-                    </form>
-                    <p class="blue">Forget password</p>
-                </div>
-         </main>
-    </body>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="res/css/style.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+        </ul>
+        <div id="profile">
+            <img src="res/images/acc.png">
+        </div>
+    </nav>
+    <br>
+    <main>
+        <div id="login">
+            <b>Welcome to postIt</b>
+            <p class="blue">Create an account</p>
+            <p>or</p>
+            <p>Please log in</p>
+            <form action="index.html">
+                <input type="email" name="Email" placeholder="Email" required><br>
+                <input type="password" placeholder="Password" required><br>
+                <input type="submit" class="login" value="Log in"></input><br>
+            </form>
+            <p class="blue">Forget password</p>
+        </div>
+    </main>
+</body>
+
 </html>
