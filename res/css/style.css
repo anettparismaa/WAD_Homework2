@@ -76,10 +76,6 @@ main div form {
 
 }
 
-#login {
-    text-align: center;
-}
-
 input[type=email],
 input[type=password] {
     padding: 10px 15px;
@@ -129,6 +125,7 @@ body {
 }
 
 .article {
+    text-align: center;
     border-radius: 25px;
     background-color: #c5c5c588;
     padding: 20px;
@@ -207,6 +204,15 @@ h4 {
  }
 
  .homeform input {
-    position:relative;
+    
+    position: relative;
     width:50%;
+}
+
+.homeform{
+    text-align: center;
+}
+
+b + p, form ~ p{
+    color: #42A5F5;
 }
