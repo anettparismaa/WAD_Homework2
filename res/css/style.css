@@ -4,8 +4,10 @@ nav {
     max-width: 95%;
     margin: auto;
     background-color: #c5c5c588;
+    border-radius: 25px;
 }
-nav ul{
+
+nav ul {
     list-style-type: none;
     padding: 0;
     width: 90%;
@@ -17,7 +19,7 @@ nav ul li {
     text-decoration: none;
 }
 
-nav ul li a{
+nav ul li a {
     text-decoration: none;
     padding-right: 1%;
 }
@@ -26,14 +28,20 @@ nav #profile {
     float: right;
     width: 10%;
 }
+
 nav img {
     height: 100%;
     float: right;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: -6px;
 }
-nav ul li :hover{
+
+nav ul li :hover {
     background-color: #77767628;
 }
-main{
+
+main {
     max-width: 50%;
     margin: auto;
     background-color: #77767628;
@@ -41,11 +49,12 @@ main{
 }
 
 
-@media (max-width: 1000px){
+@media (max-width: 1000px) {
     main {
         max-width: 75%;
     }
-    @media (max-width: 500px){
+
+    @media (max-width: 500px) {
         main {
             max-width: 90%;
         }
@@ -57,15 +66,19 @@ main div form {
     text-align: center;
 
 }
-main #login{
+
+main #login {
     text-align: center;
 }
-input[type=email], input[type=password]{
+
+input[type=email],
+input[type=password] {
     padding: 10px 15px;
     margin: 8px 0;
     display: inline-block;
 }
-main #login .blue{
+
+main #login .blue {
     color: rgba(33, 192, 192, 0.626);
 }
 
@@ -75,52 +88,67 @@ main #login .blue{
     vertical-align: top;
 }
 
-.flex-container {
-    /* We first create a flex layout context */
-    display: flex;
-    /*flex-direction: column;
-    
-    /* Then we define the flow direction 
-       and if we allow the items to wrap 
-     * Remember this is the same as:
-     * flex-direction: row;
-     * flex-wrap: wrap;
-     */
-    /*flex-flow: row wrap;
-    
-    /* Then we define how is distributed the remaining space */
-    justify-content: center;
-    
-    padding: 0;
-    margin: 0;
-    list-style: none;
-  }
+* {
+    box-sizing: border-box;
+}
 
-.flex-item {
-    background: #77767628;
+body {
+    font-family: Arial;
+    padding: 20px;
+    background: #f1f1f1;
+}
+
+.column {
+    float: left;
+    padding: 10px;
+}
+
+.left,
+.right {
+    width: 20%;
+}
+
+.middle {
+    width: 60%;
+}
+
+.article {
     border-radius: 25px;
-    padding: 5px;
-    width: 400px;
-    height: 450px;
-    margin-top: 10px;
-    line-height: 150px;
-    color: white;
-    font-weight: bold;
-    font-size: 1em;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    
- }
+    background-color: #c5c5c588;
+    padding: 20px;
+    margin-top: 20px;
+}
 
- div.image::before {
-    content: url(../images/acc.png);
-    max-width: 100%;
-    max-height: 100%;
-    height: 80px;
-    width: 30px;
-    justify-content: right;
-    align-items: right;
-    max-width:10%;
-    max-height:10%;
- }
+h4 {
+    text-align: right;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Footer */
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+    .column {
+        width: 100%;
+        padding: 0;
+    }
+}
