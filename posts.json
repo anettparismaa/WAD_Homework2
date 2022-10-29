@@ -1,0 +1,74 @@
+{
+    "Posts": [
+        {
+            "id": 1,
+            "authorName": "kati",
+            "img": "./src/img1.jpg",
+            "date": "2022-10-21T15:16:35.579Z",
+            "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut"
+        },
+        {
+            "id": 2,
+            "authorName": "mati",
+            "img": "",
+            "date": "2022-10-21T15:16:35.579Z",
+            "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut"
+        },
+        {
+            "id": 3,
+            "authorName": "lati",
+            "img": "",
+            "date": "2022-10-21T15:16:35.579Z",
+            "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut"
+        },
+        {
+            "id": 4,
+            "authorName": "nati",
+            "img": "",
+            "date": "2022-10-21T15:16:35.579Z",
+            "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut"
+        },
+        {
+            "id": 5,
+            "authorName": "sati",
+            "img": "",
+            "date": "2022-10-21T15:16:35.579Z",
+            "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut"
+        },
+        {
+            "id": 6,
+            "authorName": "rati",
+            "img": "",
+            "date": "2022-10-21T15:16:35.579Z",
+            "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut"
+        },
+        {
+            "id": 7,
+            "authorName": "pati",
+            "img": "",
+            "date": "2022-10-21T15:16:35.579Z",
+            "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut"
+        },
+        {
+            "id": 8,
+            "authorName": "cati",
+            "img": "",
+            "date": "2022-10-21T15:16:35.579Z",
+            "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut"
+        },
+        {
+            "id": 9,
+            "authorName": "lati",
+            "img": "",
+            "date": "2022-10-21T15:16:35.579Z",
+            "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut"
+        },
+        {
+            "id": 10,
+            "authorName": "kati",
+            "img": "",
+            "date": "2022-10-21T15:16:35.579Z",
+            "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut"
+        }
+    ]
+}
