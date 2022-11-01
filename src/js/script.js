@@ -19,10 +19,12 @@ async function fetchPosts(){
 async function listsPosts() {
     let data = await fetchPosts();
     let html = '';
+    
     data.Posts.forEach(post => {
+        let date = new Date(post.date)
         let htmlSegment = `<div class="article">
             <img src="${post.img}"/>
-            <h4>${post.date}</h4>
+            <h4>${date.toLocaleString()}</h4>
             <p>${post.body}</p>
             </div>`;
         html += htmlSegment;
@@ -32,3 +34,27 @@ async function listsPosts() {
 }
 listsPosts();
 
+function showDropDown() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+/**
+document.addEventListener('mouseup', function(e) {
+    var container = document.getElementById('userButton');
+    if (!container.contains(e.target)) {
+        container.style.display = 'none';
+    }
+});
+ 
+window.onclick = function(event) {
+    if (!event.target.matches(".dropdown-content")) {
+      var dropdowns = document.getElementsByClassName("dropdown-content");
+      var i;
+      for (i = 0; i < dropdowns.length; i++) {
+        var openDropdown = dropdowns[i];
+        if (openDropdown.classList.contains('show')) {
+          openDropdown.classList.remove('show');
+        }
+      }
+    }
+  }
+*/
