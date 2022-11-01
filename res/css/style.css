@@ -69,13 +69,7 @@ main {
         }
     }
 }
-/**
-@media (max-width: 500px) {
-    nav img {
-         display: none;
-     }
- }
-*/
+
 /** login page **/
 main div form {
     text-align: center;
@@ -207,6 +201,7 @@ h4 {
     align-items: right;
     max-width:10%;
     max-height:10%;
+    border-radius: 200;
  }
 
  .homeform input {
@@ -229,6 +224,7 @@ b + p, form ~ p{
     margin: 5px, 5px, 5px, 5px;
     border: none;
     cursor: pointer;
+    border-radius: 50%;
 }
 
 .userButton img{

@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="res/css/style.css">
+    <script src="./src/js/script.js"></script>
 </head>
 
 <body>
@@ -13,7 +14,13 @@
             <li><a href="index.html">Home</a></li>
         </ul>
         <div id="profile">
-            <img src="res/images/acc.png">
+            <button type="button" class="userButton" onclick="showDropDown()"> 
+                <img src="res/images/acc.png"></button>
+                <div id="myDropdown" class="dropdown-content">
+                    <a href="#">Kati Karu</a>
+                    <a href="#">kati.karu@ut.ee</a>
+                    <a href="#">logout</a>
+                  </div>
         </div>
     </nav>
     <br>
